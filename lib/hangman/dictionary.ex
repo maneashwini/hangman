@@ -1,4 +1,4 @@
-defmodule Hangman.Dictionary do
+defmodule Dictionary do
 
   @moduledoc """
   We act as an interface to a wordlist (whose name is hardwired in the
@@ -6,7 +6,7 @@ defmodule Hangman.Dictionary do
   one word per line.
   """
 
-  @word_list_file_name "assets/words.8800"
+  @word_list_file_name "../../assets/words.8800"
 
   @doc """
   Return a random word from our word list. Whitespace and newlines
